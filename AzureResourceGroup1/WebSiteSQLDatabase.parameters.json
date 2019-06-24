@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "hostingPlanName": {
+      "value": "mytesting0777-hostingplan"
+    },
+    "administratorLogin": {
+      "value": "mytesting0777"
+    },
+    "administratorLoginPassword": {
+      "value": "Tesing@478"
+    },
+    "databaseName": {
+      "value": "mytesting0777"
+    },
+
+    "webSiteName": {
+
+      "value": "mytesting0777web"
+    },
+
+    "sqlserverName": {
+      "value": "mytesting07717sql"
+    }
+  }
+}
